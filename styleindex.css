@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    text-shadow: 6px 6px #5a1b1b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 70px;
+    transform: scaleY(0.7);
+    font-weight: lighter;
+    
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 40px;
+    transform: scaleY(0.7);
+    font-weight: lighter;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 50px;
+    transform: scaleY(0.7);
+    font-weight: lighter;
+}
+
+#film {
+    position: absolute; visibility: visible; left: 200px; top: 100px; height: 100px; width: 150px; z-index: 200;
+}
+
+#television {
+    position: absolute; visibility: visible; left: 650px; top: 200px; height: 100px; width: 150px; z-index: 200;
+}
+
+#music {
+    position: absolute; visibility: visible; left: 270px; top: 400px; height: 100px; width: 150px; z-index: 200;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: crimson;
+    letter-spacing: 10px;
+}
